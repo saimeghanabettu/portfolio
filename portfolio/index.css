@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.humburger-icon {
+    background-color: #ffffff;
+}
+
+.heading {
+    font-family: "Caveat";
+}
+
+/*.nav div a:hover{
+    color: red;
+}*/
+.home-container {
+    background-image: url("https://res.cloudinary.com/dnu06fwl2/image/upload/v1680686453/image2_iszsvv.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage-text {
+    color: white;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.my-name {
+    color: white;
+    font-size: 40px;
+    font-family: "Roboto";
+}
+
+.bg-about {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 11px;
+}
+
+.page-title {
+    font-family: "Roboto";
+    font-size: 30px;
+    color: #000099;
+    font-weight: bold;
+    margin-top: 75px;
+}
+
+.hr-line {
+    background-color: grey;
+    width: 100px;
+    height: 3px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    max-width: 800px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.image {
+    height: 250px;
+    border-radius: 5px;
+}
+
+.about-description {
+    font-family: "Roboto";
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 20px;
+    margin: 10px;
+}
+
+@media screen and (min-width:768px) {
+    .about-description {
+        font-size: 20px;
+    }
+}
+
+.bg-skills {
+    background-color: white;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 49%;
+    max-width: 100px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.icon {
+    font-size: 70px;
+    color: #a5ad8a;
+    margin: 16px;
+}
+
+.image-text {
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.bg-projects {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 65px;
+    margin-top: 10px;
+}
+
+.project-details {
+    background-color: #fff;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 20px;
+}
+
+.project-details:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+.project-image {
+    height: 200px;
+    width: 200px;
+    /*box-shadow: 2px 2px 2px 2px grey;*/
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.bg-contact {
+    background-color: #eff1fe;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.form-container {
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px) {
+    .form-container {
+        width: 70%;
+    }
+}
+
+.details-box {
+    width: 100%;
+    background-color: #24252b;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+
+.message-box {
+    width: 100%;
+    background-color: #24252b;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.submitt-button {
+    background-color: transparent;
+    color: #0b0583;
+    border-color: #0b0583;
+    height: 40px;
+    width: 85px;
+    font-family: "Roboto";
+}
+
+.back-to-top-icon {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.arrowup-icon {
+    background-color: #282c34;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 6px;
+    padding-left: 9px;
+}
+
+.get-in-touch-links {
+    background-color: #0b023e;
+    width: 100%;
+    padding: 20px;
+}
+
+.icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.paragraph {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.icons-card {
+    background-color: #ffffff;
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+    margin: 6px;
+}
+
+.footer-icon {
+    font-size: 20px;
+    padding: 14px;
+    color: #1d1c21;
+}
